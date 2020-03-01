@@ -1,11 +1,11 @@
 .nav {
   display: flex;
   justify-content:space-between;
-  ali
+  margin: 40px;
 }
 
 .nav > .logo {
-  flex: 1 1 auto;
+  max-width:90%;
 }
 
 .body {
