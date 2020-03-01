@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content:space-between;
+  ali
+}
+
+.nav > img {
+  flex: 1 1 auto;
+}
+
+.body {
+  background-color:lightblue;
+}
