@@ -1,13 +1,38 @@
+body {
+  	text-align: center;
+  	color: white;
+}
 .nav {
-  display: flex;
-  justify-content:space-between;
-  margin: 40px;
+    display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-around;
+  	margin: auto;
+  	padding: 5px;
+  	background-color: rgb(171, 171, 171, 0.6);
+ 
+}
+.nav img {
+  	width: 100%;
+  	min-width: auto;
+  	max-width: 200px;
 }
 
-.nav > .logo {
-  max-width:90%;
+img {
+	padding: 5px;
 }
-
-.body {
-  background-color:lightblue;
+@media screen and (max-width: 420px) {
+  .nav {
+    	flex-direction: column;
+    	flex-wrap: nowrap;
+  }
+}
+    
+a {
+    	color: lightblue;
+    	text-decoration: none;
+}
+.content {
+	background-color: rgb(171, 171, 171, 0.6);
+	height: auto;
 }
